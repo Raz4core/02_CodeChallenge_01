@@ -19,27 +19,37 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
  // Nachbesprechung
 
 //Deklaration
-let ziffer1, ziffer2;
-let zahl1, zahl2;
-let summe;
+//let ziffer1, ziffer2;
+//let zahl1, zahl2;
+//let summe;
 
 // Eingabe Wertzuweisung :: Ziffern
-ziffer1 = prompt("zahl1:");
-ziffer2 = prompt("Zahl2:");
-console.log(typeof zahl1);
-console.log(typeof zahl2);
+//ziffer1 = prompt("zahl1:");
+//ziffer2 = prompt("Zahl2:");
+//console.log(typeof zahl1);
+//console.log(typeof zahl2);
 
 //Typkonvertierung / Ziffer --> Zahl (string--> number)
-zahl1 = parseInt(ziffer1);
-zahl2 = parseInt(ziffer2)
-console.log(typeof zahl1);
-console.log(typeof zahl2);
+//zahl1 = parseInt(ziffer1);
+//zahl2 = parseInt(ziffer2)
+//console.log(typeof zahl1);
+//console.log(typeof zahl2);
 
 
 //Berechnung
-summe = zahl1 + zahl2;
+//summe = zahl1 + zahl2;
 
 
 //Ausgabe
-console.log("Die Summe ist:" + summe);
+//console.log("Die Summe ist:" + summe);
+
+
+//Kompaktere Lösung
+
+let zahl1, zahl2, summe;
+
+zahl1 = parseInt(prompt("Zahl 1:"));
+zahl2 = parseInt(prompt("Zahl 2:"));
+summe = zahl1 + zahl2;
+console.log("Die summer der zahlen ist:" + summe);
 
