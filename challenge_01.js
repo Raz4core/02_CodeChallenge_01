@@ -9,3 +9,9 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 "Die Summe der Zahlen ist: summe"
 */
 
+
+ let ZahlOne = prompt("Bitte zahl eingeben");
+ let ZahlTwo = prompt("Bitte Zahl eingeben");
+ let summe = parseInt(ZahlOne) + parseInt(ZahlTwo);
+
+ console.log ("Ergebnis der Summe:" + summe);
